@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9168ACDE265A5C5F00A1DF3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9168ACDD265A5C5F00A1DF3F /* AppDelegate.swift */; };
-		9168ACE0265A5C5F00A1DF3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9168ACDF265A5C5F00A1DF3F /* SceneDelegate.swift */; };
-		9168ACE2265A5C5F00A1DF3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9168ACE1265A5C5F00A1DF3F /* ViewController.swift */; };
-		9168ACE5265A5C5F00A1DF3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9168ACE3265A5C5F00A1DF3F /* Main.storyboard */; };
-		9168ACE7265A5C6300A1DF3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9168ACE6265A5C6300A1DF3F /* Assets.xcassets */; };
-		9168ACEA265A5C6300A1DF3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9168ACE8265A5C6300A1DF3F /* LaunchScreen.storyboard */; };
-		9168ACF3265A7B4D00A1DF3F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9168ACF2265A7B4D00A1DF3F /* ResultViewController.swift */; };
+		9101230626626AE300534E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101230526626AE300534E64 /* AppDelegate.swift */; };
+		9101230826626AE300534E64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101230726626AE300534E64 /* SceneDelegate.swift */; };
+		9101230A26626AE300534E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101230926626AE300534E64 /* ViewController.swift */; };
+		9101230D26626AE300534E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9101230B26626AE300534E64 /* Main.storyboard */; };
+		9101230F26626AE700534E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9101230E26626AE700534E64 /* Assets.xcassets */; };
+		9101231226626AE700534E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9101231026626AE700534E64 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9168ACDA265A5C5F00A1DF3F /* SecondKadaiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondKadaiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9168ACDD265A5C5F00A1DF3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9168ACDF265A5C5F00A1DF3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9168ACE1265A5C5F00A1DF3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9168ACE4265A5C5F00A1DF3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9168ACE6265A5C6300A1DF3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9168ACE9265A5C6300A1DF3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9168ACEB265A5C6300A1DF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9168ACF2265A7B4D00A1DF3F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		9101230226626AE300534E64 /* timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9101230526626AE300534E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9101230726626AE300534E64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9101230926626AE300534E64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9101230C26626AE300534E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9101230E26626AE700534E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9101231126626AE700534E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9101231326626AE700534E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9168ACD7265A5C5F00A1DF3F /* Frameworks */ = {
+		910122FF26626AE300534E64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,72 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9168ACD1265A5C5F00A1DF3F = {
+		910122F926626AE300534E64 = {
 			isa = PBXGroup;
 			children = (
-				9168ACDC265A5C5F00A1DF3F /* SecondKadaiApp */,
-				9168ACDB265A5C5F00A1DF3F /* Products */,
+				9101230426626AE300534E64 /* timer */,
+				9101230326626AE300534E64 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9168ACDB265A5C5F00A1DF3F /* Products */ = {
+		9101230326626AE300534E64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9168ACDA265A5C5F00A1DF3F /* SecondKadaiApp.app */,
+				9101230226626AE300534E64 /* timer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9168ACDC265A5C5F00A1DF3F /* SecondKadaiApp */ = {
+		9101230426626AE300534E64 /* timer */ = {
 			isa = PBXGroup;
 			children = (
-				9168ACDD265A5C5F00A1DF3F /* AppDelegate.swift */,
-				9168ACDF265A5C5F00A1DF3F /* SceneDelegate.swift */,
-				9168ACE1265A5C5F00A1DF3F /* ViewController.swift */,
-				9168ACF2265A7B4D00A1DF3F /* ResultViewController.swift */,
-				9168ACE3265A5C5F00A1DF3F /* Main.storyboard */,
-				9168ACE6265A5C6300A1DF3F /* Assets.xcassets */,
-				9168ACE8265A5C6300A1DF3F /* LaunchScreen.storyboard */,
-				9168ACEB265A5C6300A1DF3F /* Info.plist */,
+				9101230526626AE300534E64 /* AppDelegate.swift */,
+				9101230726626AE300534E64 /* SceneDelegate.swift */,
+				9101230926626AE300534E64 /* ViewController.swift */,
+				9101230B26626AE300534E64 /* Main.storyboard */,
+				9101230E26626AE700534E64 /* Assets.xcassets */,
+				9101231026626AE700534E64 /* LaunchScreen.storyboard */,
+				9101231326626AE700534E64 /* Info.plist */,
 			);
-			path = SecondKadaiApp;
+			path = timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9168ACD9265A5C5F00A1DF3F /* SecondKadaiApp */ = {
+		9101230126626AE300534E64 /* timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9168ACEE265A5C6300A1DF3F /* Build configuration list for PBXNativeTarget "SecondKadaiApp" */;
+			buildConfigurationList = 9101231626626AE700534E64 /* Build configuration list for PBXNativeTarget "timer" */;
 			buildPhases = (
-				9168ACD6265A5C5F00A1DF3F /* Sources */,
-				9168ACD7265A5C5F00A1DF3F /* Frameworks */,
-				9168ACD8265A5C5F00A1DF3F /* Resources */,
+				910122FE26626AE300534E64 /* Sources */,
+				910122FF26626AE300534E64 /* Frameworks */,
+				9101230026626AE300534E64 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SecondKadaiApp;
-			productName = SecondKadaiApp;
-			productReference = 9168ACDA265A5C5F00A1DF3F /* SecondKadaiApp.app */;
+			name = timer;
+			productName = timer;
+			productReference = 9101230226626AE300534E64 /* timer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9168ACD2265A5C5F00A1DF3F /* Project object */ = {
+		910122FA26626AE300534E64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					9168ACD9265A5C5F00A1DF3F = {
+					9101230126626AE300534E64 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 9168ACD5265A5C5F00A1DF3F /* Build configuration list for PBXProject "SecondKadaiApp" */;
+			buildConfigurationList = 910122FD26626AE300534E64 /* Build configuration list for PBXProject "timer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,56 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 9168ACD1265A5C5F00A1DF3F;
-			productRefGroup = 9168ACDB265A5C5F00A1DF3F /* Products */;
+			mainGroup = 910122F926626AE300534E64;
+			productRefGroup = 9101230326626AE300534E64 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9168ACD9265A5C5F00A1DF3F /* SecondKadaiApp */,
+				9101230126626AE300534E64 /* timer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9168ACD8265A5C5F00A1DF3F /* Resources */ = {
+		9101230026626AE300534E64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9168ACEA265A5C6300A1DF3F /* LaunchScreen.storyboard in Resources */,
-				9168ACE7265A5C6300A1DF3F /* Assets.xcassets in Resources */,
-				9168ACE5265A5C5F00A1DF3F /* Main.storyboard in Resources */,
+				9101231226626AE700534E64 /* LaunchScreen.storyboard in Resources */,
+				9101230F26626AE700534E64 /* Assets.xcassets in Resources */,
+				9101230D26626AE300534E64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9168ACD6265A5C5F00A1DF3F /* Sources */ = {
+		910122FE26626AE300534E64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9168ACE2265A5C5F00A1DF3F /* ViewController.swift in Sources */,
-				9168ACDE265A5C5F00A1DF3F /* AppDelegate.swift in Sources */,
-				9168ACE0265A5C5F00A1DF3F /* SceneDelegate.swift in Sources */,
-				9168ACF3265A7B4D00A1DF3F /* ResultViewController.swift in Sources */,
+				9101230A26626AE300534E64 /* ViewController.swift in Sources */,
+				9101230626626AE300534E64 /* AppDelegate.swift in Sources */,
+				9101230826626AE300534E64 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9168ACE3265A5C5F00A1DF3F /* Main.storyboard */ = {
+		9101230B26626AE300534E64 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9168ACE4265A5C5F00A1DF3F /* Base */,
+				9101230C26626AE300534E64 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9168ACE8265A5C6300A1DF3F /* LaunchScreen.storyboard */ = {
+		9101231026626AE700534E64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9168ACE9265A5C6300A1DF3F /* Base */,
+				9101231126626AE700534E64 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9168ACEC265A5C6300A1DF3F /* Debug */ = {
+		9101231426626AE700534E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		9168ACED265A5C6300A1DF3F /* Release */ = {
+		9101231526626AE700534E64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,36 +281,36 @@
 			};
 			name = Release;
 		};
-		9168ACEF265A5C6300A1DF3F /* Debug */ = {
+		9101231726626AE700534E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				INFOPLIST_FILE = timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.taro.kirameki.SecondKadaiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.taro.kirameki.timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9168ACF0265A5C6300A1DF3F /* Release */ = {
+		9101231826626AE700534E64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				INFOPLIST_FILE = timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.taro.kirameki.SecondKadaiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.taro.kirameki.timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9168ACD5265A5C5F00A1DF3F /* Build configuration list for PBXProject "SecondKadaiApp" */ = {
+		910122FD26626AE300534E64 /* Build configuration list for PBXProject "timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9168ACEC265A5C6300A1DF3F /* Debug */,
-				9168ACED265A5C6300A1DF3F /* Release */,
+				9101231426626AE700534E64 /* Debug */,
+				9101231526626AE700534E64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9168ACEE265A5C6300A1DF3F /* Build configuration list for PBXNativeTarget "SecondKadaiApp" */ = {
+		9101231626626AE700534E64 /* Build configuration list for PBXNativeTarget "timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9168ACEF265A5C6300A1DF3F /* Debug */,
-				9168ACF0265A5C6300A1DF3F /* Release */,
+				9101231726626AE700534E64 /* Debug */,
+				9101231826626AE700534E64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9168ACD2265A5C5F00A1DF3F /* Project object */;
+	rootObject = 910122FA26626AE300534E64 /* Project object */;
 }

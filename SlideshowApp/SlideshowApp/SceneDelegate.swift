@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  SecondKadaiApp
+//  SlideshowApp
 //
-//  Created by 山本翔太郎 on 2021/05/23.
+//  Created by 山本翔太郎 on 2021/05/30.
 //
 
 import UIKit

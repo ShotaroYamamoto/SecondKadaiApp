@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9168ACDE265A5C5F00A1DF3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9168ACDD265A5C5F00A1DF3F /* AppDelegate.swift */; };
-		9168ACE0265A5C5F00A1DF3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9168ACDF265A5C5F00A1DF3F /* SceneDelegate.swift */; };
-		9168ACE2265A5C5F00A1DF3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9168ACE1265A5C5F00A1DF3F /* ViewController.swift */; };
-		9168ACE5265A5C5F00A1DF3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9168ACE3265A5C5F00A1DF3F /* Main.storyboard */; };
-		9168ACE7265A5C6300A1DF3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9168ACE6265A5C6300A1DF3F /* Assets.xcassets */; };
-		9168ACEA265A5C6300A1DF3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9168ACE8265A5C6300A1DF3F /* LaunchScreen.storyboard */; };
-		9168ACF3265A7B4D00A1DF3F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9168ACF2265A7B4D00A1DF3F /* ResultViewController.swift */; };
+		9112FCDB26639460003F4F9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112FCDA26639460003F4F9F /* AppDelegate.swift */; };
+		9112FCDD26639460003F4F9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112FCDC26639460003F4F9F /* SceneDelegate.swift */; };
+		9112FCDF26639460003F4F9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112FCDE26639460003F4F9F /* ViewController.swift */; };
+		9112FCE226639460003F4F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9112FCE026639460003F4F9F /* Main.storyboard */; };
+		9112FCE426639463003F4F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9112FCE326639463003F4F9F /* Assets.xcassets */; };
+		9112FCE726639463003F4F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9112FCE526639463003F4F9F /* LaunchScreen.storyboard */; };
+		9112FCF02669031E003F4F9F /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112FCEF2669031E003F4F9F /* ZoomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9168ACDA265A5C5F00A1DF3F /* SecondKadaiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondKadaiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9168ACDD265A5C5F00A1DF3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9168ACDF265A5C5F00A1DF3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9168ACE1265A5C5F00A1DF3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9168ACE4265A5C5F00A1DF3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9168ACE6265A5C6300A1DF3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9168ACE9265A5C6300A1DF3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9168ACEB265A5C6300A1DF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9168ACF2265A7B4D00A1DF3F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		9112FCD726639460003F4F9F /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9112FCDA26639460003F4F9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9112FCDC26639460003F4F9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9112FCDE26639460003F4F9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9112FCE126639460003F4F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9112FCE326639463003F4F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9112FCE626639463003F4F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9112FCE826639463003F4F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9112FCEF2669031E003F4F9F /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9168ACD7265A5C5F00A1DF3F /* Frameworks */ = {
+		9112FCD426639460003F4F9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,72 +39,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9168ACD1265A5C5F00A1DF3F = {
+		9112FCCE26639460003F4F9F = {
 			isa = PBXGroup;
 			children = (
-				9168ACDC265A5C5F00A1DF3F /* SecondKadaiApp */,
-				9168ACDB265A5C5F00A1DF3F /* Products */,
+				9112FCD926639460003F4F9F /* SlideshowApp */,
+				9112FCD826639460003F4F9F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9168ACDB265A5C5F00A1DF3F /* Products */ = {
+		9112FCD826639460003F4F9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9168ACDA265A5C5F00A1DF3F /* SecondKadaiApp.app */,
+				9112FCD726639460003F4F9F /* SlideshowApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9168ACDC265A5C5F00A1DF3F /* SecondKadaiApp */ = {
+		9112FCD926639460003F4F9F /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
-				9168ACDD265A5C5F00A1DF3F /* AppDelegate.swift */,
-				9168ACDF265A5C5F00A1DF3F /* SceneDelegate.swift */,
-				9168ACE1265A5C5F00A1DF3F /* ViewController.swift */,
-				9168ACF2265A7B4D00A1DF3F /* ResultViewController.swift */,
-				9168ACE3265A5C5F00A1DF3F /* Main.storyboard */,
-				9168ACE6265A5C6300A1DF3F /* Assets.xcassets */,
-				9168ACE8265A5C6300A1DF3F /* LaunchScreen.storyboard */,
-				9168ACEB265A5C6300A1DF3F /* Info.plist */,
+				9112FCDA26639460003F4F9F /* AppDelegate.swift */,
+				9112FCDC26639460003F4F9F /* SceneDelegate.swift */,
+				9112FCDE26639460003F4F9F /* ViewController.swift */,
+				9112FCE026639460003F4F9F /* Main.storyboard */,
+				9112FCEF2669031E003F4F9F /* ZoomViewController.swift */,
+				9112FCE326639463003F4F9F /* Assets.xcassets */,
+				9112FCE526639463003F4F9F /* LaunchScreen.storyboard */,
+				9112FCE826639463003F4F9F /* Info.plist */,
 			);
-			path = SecondKadaiApp;
+			path = SlideshowApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9168ACD9265A5C5F00A1DF3F /* SecondKadaiApp */ = {
+		9112FCD626639460003F4F9F /* SlideshowApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9168ACEE265A5C6300A1DF3F /* Build configuration list for PBXNativeTarget "SecondKadaiApp" */;
+			buildConfigurationList = 9112FCEB26639463003F4F9F /* Build configuration list for PBXNativeTarget "SlideshowApp" */;
 			buildPhases = (
-				9168ACD6265A5C5F00A1DF3F /* Sources */,
-				9168ACD7265A5C5F00A1DF3F /* Frameworks */,
-				9168ACD8265A5C5F00A1DF3F /* Resources */,
+				9112FCD326639460003F4F9F /* Sources */,
+				9112FCD426639460003F4F9F /* Frameworks */,
+				9112FCD526639460003F4F9F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SecondKadaiApp;
-			productName = SecondKadaiApp;
-			productReference = 9168ACDA265A5C5F00A1DF3F /* SecondKadaiApp.app */;
+			name = SlideshowApp;
+			productName = SlideshowApp;
+			productReference = 9112FCD726639460003F4F9F /* SlideshowApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9168ACD2265A5C5F00A1DF3F /* Project object */ = {
+		9112FCCF26639460003F4F9F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					9168ACD9265A5C5F00A1DF3F = {
+					9112FCD626639460003F4F9F = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 9168ACD5265A5C5F00A1DF3F /* Build configuration list for PBXProject "SecondKadaiApp" */;
+			buildConfigurationList = 9112FCD226639460003F4F9F /* Build configuration list for PBXProject "SlideshowApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,56 +112,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 9168ACD1265A5C5F00A1DF3F;
-			productRefGroup = 9168ACDB265A5C5F00A1DF3F /* Products */;
+			mainGroup = 9112FCCE26639460003F4F9F;
+			productRefGroup = 9112FCD826639460003F4F9F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9168ACD9265A5C5F00A1DF3F /* SecondKadaiApp */,
+				9112FCD626639460003F4F9F /* SlideshowApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9168ACD8265A5C5F00A1DF3F /* Resources */ = {
+		9112FCD526639460003F4F9F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9168ACEA265A5C6300A1DF3F /* LaunchScreen.storyboard in Resources */,
-				9168ACE7265A5C6300A1DF3F /* Assets.xcassets in Resources */,
-				9168ACE5265A5C5F00A1DF3F /* Main.storyboard in Resources */,
+				9112FCE726639463003F4F9F /* LaunchScreen.storyboard in Resources */,
+				9112FCE426639463003F4F9F /* Assets.xcassets in Resources */,
+				9112FCE226639460003F4F9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9168ACD6265A5C5F00A1DF3F /* Sources */ = {
+		9112FCD326639460003F4F9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9168ACE2265A5C5F00A1DF3F /* ViewController.swift in Sources */,
-				9168ACDE265A5C5F00A1DF3F /* AppDelegate.swift in Sources */,
-				9168ACE0265A5C5F00A1DF3F /* SceneDelegate.swift in Sources */,
-				9168ACF3265A7B4D00A1DF3F /* ResultViewController.swift in Sources */,
+				9112FCDF26639460003F4F9F /* ViewController.swift in Sources */,
+				9112FCDB26639460003F4F9F /* AppDelegate.swift in Sources */,
+				9112FCDD26639460003F4F9F /* SceneDelegate.swift in Sources */,
+				9112FCF02669031E003F4F9F /* ZoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9168ACE3265A5C5F00A1DF3F /* Main.storyboard */ = {
+		9112FCE026639460003F4F9F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9168ACE4265A5C5F00A1DF3F /* Base */,
+				9112FCE126639460003F4F9F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9168ACE8265A5C6300A1DF3F /* LaunchScreen.storyboard */ = {
+		9112FCE526639463003F4F9F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9168ACE9265A5C6300A1DF3F /* Base */,
+				9112FCE626639463003F4F9F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9168ACEC265A5C6300A1DF3F /* Debug */ = {
+		9112FCE926639463003F4F9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		9168ACED265A5C6300A1DF3F /* Release */ = {
+		9112FCEA26639463003F4F9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,36 +285,36 @@
 			};
 			name = Release;
 		};
-		9168ACEF265A5C6300A1DF3F /* Debug */ = {
+		9112FCEC26639463003F4F9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				INFOPLIST_FILE = SlideshowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.taro.kirameki.SecondKadaiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.taro.kirameki.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9168ACF0265A5C6300A1DF3F /* Release */ = {
+		9112FCED26639463003F4F9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				INFOPLIST_FILE = SlideshowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.taro.kirameki.SecondKadaiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.taro.kirameki.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,25 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9168ACD5265A5C5F00A1DF3F /* Build configuration list for PBXProject "SecondKadaiApp" */ = {
+		9112FCD226639460003F4F9F /* Build configuration list for PBXProject "SlideshowApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9168ACEC265A5C6300A1DF3F /* Debug */,
-				9168ACED265A5C6300A1DF3F /* Release */,
+				9112FCE926639463003F4F9F /* Debug */,
+				9112FCEA26639463003F4F9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9168ACEE265A5C6300A1DF3F /* Build configuration list for PBXNativeTarget "SecondKadaiApp" */ = {
+		9112FCEB26639463003F4F9F /* Build configuration list for PBXNativeTarget "SlideshowApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9168ACEF265A5C6300A1DF3F /* Debug */,
-				9168ACF0265A5C6300A1DF3F /* Release */,
+				9112FCEC26639463003F4F9F /* Debug */,
+				9112FCED26639463003F4F9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9168ACD2265A5C5F00A1DF3F /* Project object */;
+	rootObject = 9112FCCF26639460003F4F9F /* Project object */;
 }

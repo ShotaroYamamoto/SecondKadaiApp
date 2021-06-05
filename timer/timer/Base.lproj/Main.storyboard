@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ctd-x5-LxW">
+                                <rect key="frame" x="94" y="100" width="708" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydi-Zt-2WE">
+                                <rect key="frame" x="417" y="200.5" width="62" height="30"/>
+                                <state key="normal" title="一時停止"/>
+                                <connections>
+                                    <action selector="pauseTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dp8-Vo-kme"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WoL-9v-nrz">
+                                <rect key="frame" x="740" y="200.5" width="62" height="30"/>
+                                <state key="normal" title="リセット"/>
+                                <connections>
+                                    <action selector="resetTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rYD-dE-RwW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8T-EA-5Hc">
+                                <rect key="frame" x="94" y="200.5" width="228" height="30"/>
+                                <state key="normal" title="再生"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="t8T-EA-5Hc" firstAttribute="top" secondItem="Ctd-x5-LxW" secondAttribute="bottom" constant="80" id="Dzd-zS-E5T"/>
+                            <constraint firstItem="Ctd-x5-LxW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Hdo-k5-IXK"/>
+                            <constraint firstItem="WoL-9v-nrz" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ydi-Zt-2WE" secondAttribute="trailing" constant="8" symbolic="YES" id="IGO-93-WPp"/>
+                            <constraint firstItem="WoL-9v-nrz" firstAttribute="trailing" secondItem="Ctd-x5-LxW" secondAttribute="trailing" id="MC9-77-Yz9"/>
+                            <constraint firstItem="Ydi-Zt-2WE" firstAttribute="top" secondItem="t8T-EA-5Hc" secondAttribute="top" id="MCZ-c6-dMW"/>
+                            <constraint firstItem="Ydi-Zt-2WE" firstAttribute="bottom" secondItem="t8T-EA-5Hc" secondAttribute="bottom" id="TS4-JC-Ul1"/>
+                            <constraint firstItem="Ydi-Zt-2WE" firstAttribute="centerX" secondItem="Ctd-x5-LxW" secondAttribute="centerX" id="aB2-q7-c4n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ctd-x5-LxW" secondAttribute="trailing" constant="50" id="aqG-J2-SEI"/>
+                            <constraint firstItem="t8T-EA-5Hc" firstAttribute="leading" secondItem="Ctd-x5-LxW" secondAttribute="leading" id="cfz-Qy-pso"/>
+                            <constraint firstItem="WoL-9v-nrz" firstAttribute="bottom" secondItem="t8T-EA-5Hc" secondAttribute="bottom" id="djw-cV-Phz"/>
+                            <constraint firstItem="Ydi-Zt-2WE" firstAttribute="leading" secondItem="t8T-EA-5Hc" secondAttribute="trailing" constant="95" id="gIb-cJ-se0"/>
+                            <constraint firstItem="t8T-EA-5Hc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ctd-x5-LxW" secondAttribute="leading" id="gmK-co-BbO"/>
+                            <constraint firstItem="Ctd-x5-LxW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="p7m-VX-jgb"/>
+                            <constraint firstItem="WoL-9v-nrz" firstAttribute="top" secondItem="t8T-EA-5Hc" secondAttribute="top" id="xcG-H5-uo9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="startTimer" destination="t8T-EA-5Hc" id="CHr-x9-9OH"/>
+                        <outlet property="timerLabel" destination="Ctd-x5-LxW" id="OQh-1G-47m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.4375" y="63.768115942028992"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SecondKadaiApp
+//  timer
 //
-//  Created by 山本翔太郎 on 2021/05/23.
+//  Created by 山本翔太郎 on 2021/05/29.
 //
 
 import UIKit
