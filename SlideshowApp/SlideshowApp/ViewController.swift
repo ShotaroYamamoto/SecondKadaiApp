@@ -22,7 +22,10 @@ class ViewController: UIViewController {
         zoomViewController.zoomimage = Zoom.imageView?.image
        }
     
-
+    @IBAction func MoveFoward(_ sender: Any) {
+        if 
+    }
+    
     
 
     override func viewDidLoad() {
