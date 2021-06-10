@@ -18,7 +18,6 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
         label.text = "こんにちは\(x)さん"
     }
     
